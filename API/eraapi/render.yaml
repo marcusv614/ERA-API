@@ -8,10 +8,3 @@ services:
     plan: free
     # Configure the database credentials in the Render dashboard or secret manager.
     # Do not commit secrets to source control.
-    envVars:
-      - key: SPRING_FLYWAY_ENABLED
-        value: true
-      - key: SPRING_FLYWAY_LOCATIONS
-        value: classpath:db/migration
-      - key: JAVA_OPTS
-        value: -Xms512m -Xmx1024m
