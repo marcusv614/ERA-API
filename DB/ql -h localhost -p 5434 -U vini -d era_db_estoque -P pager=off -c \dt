@@ -1,0 +1,19 @@
+            List of relations
+ Schema |      Name      | Type  | Owner 
+--------+----------------+-------+-------
+ public | ativo          | table | vini
+ public | categoria      | table | vini
+ public | devolucao      | table | vini
+ public | devolucao_item | table | vini
+ public | entrada        | table | vini
+ public | entrada_item   | table | vini
+ public | estoque        | table | vini
+ public | localizacao    | table | vini
+ public | movimentacao   | table | vini
+ public | nota_fiscal    | table | vini
+ public | produto        | table | vini
+ public | retirada       | table | vini
+ public | retirada_item  | table | vini
+ public | usuario        | table | vini
+(14 rows)
+

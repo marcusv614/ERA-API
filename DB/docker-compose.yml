@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:16
+    container_name: era_db
+    environment:
+      POSTGRES_USER: vini
+      POSTGRES_PASSWORD: era123
+      POSTGRES_DB: era_db_estoque
+    ports:
+      - "5434:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
