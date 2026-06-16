@@ -1,0 +1,10 @@
+target
+*.iml
+*.log
+*.tmp
+*.class
+.gradle
+tmp
+.DS_Store
+.idea
+.vscode
